@@ -1,0 +1,9 @@
+I found it convenient to use a modified version of the below linked stackoverflow 
+suggestion to get the relative coordinates of my image map. As I didn't have a ton of areas to capture, I just copy/pasted the reults of the below code snippet from the developer console into my json file.
+
+var x = e.pageX;var y = e.pageY;var width=document.body.clientWidth;var height=document.body.clientWidth;
+			console.log("(" + x + ", " + y + ")");
+			console.log(width + " " + height);
+			console.log("(" + (x / width) + ", " + (y / height) + ")");
+
+http://stackoverflow.com/questions/12888584/is-there-a-way-to-tell-chrome-web-debugger-to-show-the-current-mouse-position-in
