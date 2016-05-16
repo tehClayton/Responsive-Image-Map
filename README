@@ -18,6 +18,8 @@ each map area element you'll want to be resized. ex:
 		"cy2": 0.752
 		}
 	]
+	
+Note: For tips on getting your relative coordinates, see the 'Getting-Coordinates' file.
 2) Each area element will need to have a class name that matches the filename of
 the JSON coordinates (without the file extension)
 3) Each area element will need to have an id that matches its corresponding object name 
