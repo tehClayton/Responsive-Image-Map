@@ -21,7 +21,6 @@ each map area element you'll want to be resized. ex:
 	]
 ```
 	
-### Note: For tips on getting your relative coordinates, see the 'Getting-Coordinates' file.
 2. Each area element will need to have a class name that matches the filename of
 the JSON coordinates (without the file extension)
 3. Each area element will need to have an id that matches its corresponding object name 
@@ -29,3 +28,4 @@ in the JSON file.
 4. To specify the filepath where your JSON file is stored.
 5. Call functions onload="updateMapCoords('stringFeaturingYourJSONFilename');" and
 	onresize="updateMapCoords('stringFeaturingYourJSONFilename');" in your body 	element
+###### Note: For tips on getting your relative coordinates, see the 'Getting-Coordinates' file.
